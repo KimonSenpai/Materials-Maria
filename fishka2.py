@@ -22,3 +22,12 @@ s = sum(X**2 + Y**2 for X, Y in zip(x, y))
 
 
 #"2 23 45" -split-> ["2", "23", "45"] -map-> [2, 23, 45]
+
+mas = [3, 5]
+mas1 = list(mas)
+
+mas1[0] = 20
+print(*mas) #print(*[2, 3]) ~ print(2, 3)
+[0, 1, 2, 3]
+[2, 2, 2]
+[2, 3, 4, 5]
