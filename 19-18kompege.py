@@ -28,7 +28,7 @@ for s in range(1, 69):
 
 print("problem 21")
 for s in range(1, 69):
-  if f(7, s) == -4:
+  if f(7, s) == -4 and +1 in move(7, s):
     print(s)
     break
 
